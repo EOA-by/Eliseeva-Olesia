@@ -25,3 +25,7 @@ th {
 table {
     width: 400px;
 }
+.cross {
+cursor: progress;
+color: rgb(76, 0, 255);
+}
