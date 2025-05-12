@@ -1,12 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
 html {
     box-sizing: border-box;
 }
-*, * ::before, * ::after {
-body {
-margin: 0;
+*,* ::before, * ::after {
+    box-sizing: inherit;
 }
-.container {
-    max-width: 1370px;
-    width: 100%;
-    margin: 0 auto;
-}
+    body {
+        margin: 0;
+        font-family: 'Montserrat', serif;
+    }
+
+    .container {
+        max-width: 1370px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header {
+        min-height: 1024px;
+        background: url(/real_estate_agency_Park_Chelyuskintsev/img/header/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+    .header h1 {
+        font-size: 72px;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-family: "Montserrat";
+        color: #FFFFFF;
+    }
+    .header p {
+        font-size: 28px;
+        max-width: 655px;
+        font-weight: normal;
+        font-style: normal;
+        color: #FFFFFF;
+        margin-top: 0;
+
+    }
+    
+    .header button {
+        width: 260px;
+        height: 60px;
+        border-radius: 20px;
+        padding: 18px 19px;
+        font-family: 'Montserrat', serif;
+        font-size: 18px;
+        max-width: 260px;
+        font-weight: medium;
+        border: none;
+        cursor: pointer;
+
+        
+        color: #242424;
+        margin-top: 0;
+    }
