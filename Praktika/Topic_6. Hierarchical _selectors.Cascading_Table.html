@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        P {
+            color: green;
+        }
+
+        div {}
+
+        .aaa {
+            color: blue;
+        }
+
+        .btn {
+            width: 100px;
+            height: 50px;
+            background-color: yellow;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .bnt-large {
+            width: 200px;
+        }
+
+        #aaa {
+            background-color: blueviolet;
+        }
+
+        #bbb {
+            border: double darkcyan 4px;
+            margin-top: 5px;
+            width: 300px;
+        }
+
+        [align="center"] {
+            background-color: red;
+        }
+
+        p>span {
+            font-size: 100px;
+            color: aqua;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 20px;
+        }
+
+        /* td:first-child,td:last-child {
+            background-color: aquamarine;
+        } 
+        td:nth-child(odd){
+            background-color: goldenrod;
+        } */
+        /* td:nth-child(1)
+    {
+        background-color: black;
+    } */
+
+        tr:nth-child(odd) td:nth-child(odd) {
+            background-color: black;
+        }
+
+        tr:nth-child(even) td:nth-child(even) {
+            background-color: black;
+        }
+
+        /* tr:nth-child(3n+2) 
+       {
+        background-color: olive;
+       }
+       tr:nth-child(-n+5) 
+       {
+        background-color: olive; 
+       }
+       p:first-of-type{
+        border: double dodgerblue 5px;
+       }
+        p:last-of-type{
+        border: double rgb(28, 141, 38) 5px;
+       } */
+        /* p:nth-child(even)
+    {
+        background-color: firebrick;
+    }
+        p:nth-child(odd)
+    {
+        background-color: teal;
+    } */
+        p {
+            line-height: 100%
+        }
+
+        img:nth-of-type(odd) {
+            float: right
+        }
+
+        img:nth-of-type(even) {
+            float: left;
+            margin-right: 10px
+        }
+    </style>
+
+    <a href="#aaa">click</a>
+
+    <div align="center">hello</div>
+
+    <span>world</span>
+
+    <p><span>Королева</span> может жить до 20 лет, рабочие особи живут от 1 до 3 лет.</p>
+    <p>Муравьиные <span>королевы</span> живут в 100 раз дольше, чем большинство одиночных
+        насекомых аналогичного размера.</p>
+
+    <p>Муравьиные семьи могут существовать на протяжении долгого периода времени.</p>
+    <p align="center">Королева может жить до 20 лет, рабочие особи живут от 1 до 3 лет.</p>
+    <p>Самцы живут всего несколько недель.</p>
+    <p align="right">Муравьиные королевы живут в 100 раз дольше, чем большинство одиночных насекомых аналогичного
+        размера.</p>
+    <style>
+        [href^="http://"] {
+            font-weight: bold
+        }
+    </style>
+    <p>Королева может жить до 20 лет, рабочие особи
+        <a href="Topic_5. Wrapping. Layouts. Selectors.html" target="Info">живут</a> от 1 до 3 лет.
+    </p>
+    <p>Самцы, <a href="http://www.site.com/p.html">однако</a>, живут всего несколько недель.</p>
+
+    <style>
+        [href$=".gif"] {
+            color: red
+        }
+    </style>
+    <p><a href="img/smile_2.png">Королева</a> может жить до 20 лет, <a href="img/smile_2.gif">рабочие особи</a> живут от
+        1 до 3 лет.</p>
+
+    <style>
+        [href*="queen"] {
+            color: brown
+        }
+    </style>
+    <p><a href="img/queen.png">Королева</a> может жить до 20 лет, <a href="img/delphinium_g.gif">рабочие особи</a> живут
+        от 1 до 3 лет.</p>
+
+    <p class="bnt-large btn">button</p>
+    <p class="btn">button</p>
+    <p class="btn">button</p>
+    <p class="btn">button</p>
+    <p class="btn">button</p>
+    <p class="btn">button</p>
+
+    <style>
+        p>span {
+            color: red
+        }
+    </style>
+    <p>Муравьиные семьи могут существовать на протяжении долгого периода времени.</p>
+    <p>Королева может жить <span>до 20 лет</span>, рабочие особи живут от 1 до 3 лет.</p>
+    <p>Самцы, однако, <i>живут всего <span>несколько недель</span></i>.</p>
+    <hr>
+    <style>
+        h3+p {
+            background-color: red
+        }
+
+        h4+p {
+            background-color: aqua;
+        }
+
+        h5+p {
+            color: greenyellow;
+        }
+    </style>
+    <h3>МУРАВЬИ</h3>
+    <p>Муравьиные семьи могут существовать на протяжении долгого периода времени.</p>
+    <p>Королева может жить до 20 лет, рабочие особи живут от 1 до 3 лет.</p>
+    <p>Самцы, однако, живут всего несколько недель.</p>
+
+    <h4>МУРАВЬИ</h4>
+    <p>Муравьиные семьи могут существовать на протяжении долгого периода времени.</p>
+    <p>Королева может жить до 20 лет, рабочие особи живут от 1 до 3 лет.</p>
+    <p>Самцы, однако, живут всего несколько недель.</p>
+
+    <h5>МУРАВЬИ</h5>
+    <p>Муравьиные семьи могут существовать на протяжении долгого периода времени.</p>
+    <p>Королева может жить до 20 лет, рабочие особи живут от 1 до 3 лет.</p>
+    <p>Самцы, однако, живут всего несколько недель.</p>
+    <hr>
+    <style>
+        h3~p {
+            background-color: orange
+        }
+    </style>
+    <p>Здравствуйте, дорогие слушатели!</p>
+    <p>Сегодня мы поговорим о муравьях.</p>
+    <h3>МУРАВЬИ</h3>
+    <p>Муравьиные семьи могут существовать на протяжении долгого периода времени.</p>
+    <p>Королева может жить до 20 лет, рабочие особи живут от 1 до 3 лет.</p>
+    <p>Самцы, однако, живут всего несколько недель.</p>
+    <br>
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+
+    <div style="border: double darkgreen 5px; 
+width: 300px;
+margin-top: 5px; padding-left: 4px;">
+        <p>Когда мы улыбаемся,</p>
+        <p>мы реже ошибаемся.</p>
+        <img src="img/smile_2.gif" style="width: 30px; height: 40px;">
+        <p>И чаще награждаемся</p>
+        <img src="img/smile_2.gif" style="width: 30px; height: 40px;">
+        <p>подарками судьбы.</p>
+        <p>Когда мы улыбаемся,</p>
+        <img src="img/smile_2.gif" style="width: 30px; height: 40px;">
+        <p>мы жизнью наслаждаемся.</p>
+        <p>И вмиг освобождаемся</p>
+        <p>от горестей любых.</p>
+        <p>Улыбка-вещь бесплатная,</p>
+        <img src="img/smile_2.gif" style="width: 30px; height: 40px;">
+        <p>простая и понятная,</p>
+        <img src="img/smile_2.gif" style="width: 30px; height: 40px;">
+        <p>смешная и понятная,</p>
+        <p>доступная для всех.</p>
+        <img src="img/smile_2.gif" style="width: 30px; height: 40px;">
+        <p>Когда мы улыбаемся,</p>
+        <p>Мы самоисцеляемся.</p>
+        <img src="img/smile_2.gif" style="width: 30px; height: 40px;">
+        <p>И силой наполняемся,</p>
+        <p>дарующей успех!</p>
+    </div>
+
+</body>
+
+</html>
