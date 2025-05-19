@@ -13,8 +13,6 @@
             color: green;
         }
 
-        div {}
-
         .aaa {
             color: blue;
         }
@@ -112,6 +110,19 @@
             float: left;
             margin-right: 10px
         }
+        div:not(.Remark) {color: blue;
+        }
+        a.nav:visited:hover {
+            color: aquamarine;
+        }
+        img [src$='.jpg']:first-child {
+            background-color: cadetblue;
+        }
+        tr:not(:first-child):not(:last-child) {
+            background-color: chocolate;
+            font-style: oblique;
+        }
+       
     </style>
 
     <a href="#aaa">click</a>
@@ -144,7 +155,7 @@
             color: red
         }
     </style>
-    <p><a href="img/smile_2.png">Королева</a> может жить до 20 лет, <a href="img/smile_2.gif">рабочие особи</a> живут от
+    <p><a class="nav" href="img/smile_2.png">Королева</a> может жить до 20 лет, <a href="img/smile_2.gif">рабочие особи</a> живут от
         1 до 3 лет.</p>
 
     <style>
@@ -165,6 +176,28 @@
     <style>
         p>span {
             color: red
+        }
+        .menu{
+            float: left;
+            width: 200px;
+            height: 200px;
+            background-color: chartreuse;
+        }
+        .banner{
+            float: right;
+            width: 200px;
+            height: 200px;
+            background-color: cadetblue;
+        }
+        .container{
+            background-color: rgb(3, 43, 44);
+        }
+        .clearfix:after{
+            content: '';
+            display: block;
+            height: 5px;
+            background-color: chocolate;
+            clear: both; background-color: black;
         }
     </style>
     <p>Муравьиные семьи могут существовать на протяжении долгого периода времени.</p>
@@ -268,7 +301,7 @@ width: 300px;
 margin-top: 5px; padding-left: 4px;">
         <p>Когда мы улыбаемся,</p>
         <p>мы реже ошибаемся.</p>
-        <img src="img/smile_2.gif" style="width: 30px; height: 40px;">
+        <img src="img/sinatra.jpg" style="width: 30px; height: 40px;">
         <p>И чаще награждаемся</p>
         <img src="img/smile_2.gif" style="width: 30px; height: 40px;">
         <p>подарками судьбы.</p>
@@ -290,7 +323,37 @@ margin-top: 5px; padding-left: 4px;">
         <p>И силой наполняемся,</p>
         <p>дарующей успех!</p>
     </div>
+    <hr>
+    <div class="Header1">Pfujkjdjr 1</div>
+    <div class="Header2">Pfujkjdjr 2</div>
+    <div>ljfoiewjfoi joijoijoijo jojo</div>
+    <div class="info">information information</div>
+    <div class="Remark">rtecvk;sos;sx</div>
+    <div class="info">information information</div>
+    <p>xnj nxjjx njxj nxjjxoij</p>
+    <br>
+        <style>
+    p::first-letter { color: rgb(14, 17, 197) }
+</style>
+<h3>МУРАВЬИНАЯ <b>СЕМЬЯ</b></h3>
+<div>
+    <p>Муравьиные семьи могут существовать на протяжении долгого периода времени.</p>
+    <p>Королева может жить до 20 лет.</p>
+</div>
+<style>
+    p::first-line { color: red }
+</style>
+<h3>МУРАВЬИНАЯ <b>СЕМЬЯ</b></h3>
+<div>
+    <p>Муравьиные семьи могут существовать на протяжении долгого периода времени.</p>
+    <p>Муравьиные королевы живут в 100 раз дольше, чем многие насекомые аналогичного размера.</p>
+</div>
 
+<div class="container clearfix">
+    <div class="menu">menu</div>
+    <div class="banner">banner</div>
+    <div class="content">content</div>
+</div>
 </body>
 
 </html>
