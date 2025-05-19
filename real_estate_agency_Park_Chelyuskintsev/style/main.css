@@ -22,6 +22,7 @@ html {
         background: url(/real_estate_agency_Park_Chelyuskintsev/img/header/background.png);
         background-repeat: no-repeat;
         background-size: cover;
+        overflow: hidden;
         }
 
     .header h1 {
