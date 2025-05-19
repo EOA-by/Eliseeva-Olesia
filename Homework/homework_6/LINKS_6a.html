@@ -1,50 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap"
+        rel="stylesheet">
+
 </head>
 <style>
     body {
-        background: url(img/les_derevia_siluety_696905_2560x1080.jpg);
+        background: url(img/2838_winter-forest-top-view_2560x1440.jpg);
         font-family: Cascadia Mono, italic;
     }
 
-.menu {
-     text-align: center;
-     margin-top: 50px;
-}
-.menu-link { color: green;
-    font-size: 20px; 
-    border-right: solid red; padding-right: 5px;
-}
+    a {
+        color: green;
 
-a:hover {
-    color: red;
-}
+    }
 
-.advert { background-color: #D0FFD0; }
-.advert-link { color: green; font-style: italic; font-size: 20px; }
+    /* прямое указание классов ссылок;
+       Разделители сделаны при помощи border; */
+    .one {
+        text-align: center;
+        margin-top: 50px;
+    }
 
-</style>
+    .one-link {
+        font-size: 20px;
+        border-right: solid red;
+        padding-right: 5px;
+    }
 
-<div class="menu">
-    <a href='https://doka.guide/css/adding-styles/' class="menu-link">первая ссылка</a>
-    <a href='https://timeweb.com/ru/community/' class="menu-link">вторая ссылка</a>
-    <a href='https://htmlacademy.ru/blog/html-tags/menu' class="menu-link">третья ссылка</a>
-    <a href='https://htmlacademy.ru/blog/css/selectors' class="menu-link">четвёртая ссылка</a>
-    <a href='https://html5book.ru/examples/gorizontalnoe-menu/gorizontalnoe-menu-1.html' class="menu-link">пятая ссылка</a>
+    /* Иерархическое применение селекторов;
+разделители сделаны при помощи добавления content и добавления пайпа (вертикальной черты)*/
+    .two {
+        text-align: center;
+        margin-top: 5px;
+        padding-left: 30px;
+    }
+
+    .two a {
+        color: green;
+        font-size: 20px;
+
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .two a::after {
+        content: "|";
+        color: red;
+    }
+
+    /* Метод с применением класса li и стилевого свойства display: inline;
+разделители сделаны при помощи добавления content и добавления пайпа (вертикальной черты) */
+
+    ul {
+        list-style: none;
+        margin-top: 5px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    li::after {
+        content: "|";
+        color: red;
+    }
+
+    .tree li {
+        display: inline;
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    /* Метод с применением класса li и стилевого свойства display: inline-block;
+разделители сделаны при помощи добавления content и добавления пайпа (вертикальной черты) */
+
+    .four li {
+        display: inline-block;
+    }
+
+    /* Метод с применением класса li и стилевого свойства display: inline-table;
+разделители сделаны при помощи добавления content и добавления пайпа (вертикальной черты) */
+
+    .five li {
+        display: inline-table;
+    }
+
+    /* Метод с применением класса li и стилевого свойства float;
+разделители сделаны при помощи добавления content и добавления пайпа (вертикальной черты) */
+
+    .six ul {
+        overflow: hidden;
+        padding-left: 540px;
+    }
+
+    .six li {
+        float: left;
+    }
+
+     /* Метод с применением класса li и стилевого свойства flex;
+разделители сделаны при помощи добавления content и добавления пайпа (вертикальной черты) */
+    .seven ul {
+  display: flex;
+  padding-left: 540px;
+    }
+
+ </style>
+
+<div class="one">
+    <a href='https://doka.guide/css/adding-styles/' class="one-link">ссылка № 1</a>
+    <a href='https://timeweb.com/ru/community/' class="one-link">ссылка № 2</a>
+    <a href='https://htmlacademy.ru/blog/html-tags/menu' class="one-link">ссылка № 3</a>
+    <a href='https://htmlacademy.ru/blog/css/selectors' class="one-link">ссылка № 4</a>
+    <a href='https://html5book.ru/examples/gorizontalnoe-menu/gorizontalnoe-menu-1.html' class="one-link">ссылка № 5</a>
 </div>
 <br>
-<div class="advert">
-    <a href='' class="advert-link">пятая ссылка</a>
-    <a href='' class="advert-link">шестая ссылка</a>
-    <a href='' class="advert-link">седьмая ссылка</a>
+<div class="two">
+    <a href='#'>ссылка № 1</a>
+    <a href='#'>ссылка № 2</a>
+    <a href='#'>ссылка № 3</a>
+    <a href='#'>ссылка № 4</a>
+    <a href='#'>ссылка № 5</a>
+</div>
+<br>
+<div class="tree">
+    <ul>
+        <li><a href='#'>ссылка № 1</a></li>
+        <li><a href='#'>ссылка № 2</a></li>
+        <li><a href='#'>ссылка № 3</a></li>
+        <li><a href='#'>ссылка № 4</a></li>
+        <li><a href='#'>ссылка № 5</a></li>
+    </ul>
+</div>
+
+<div class="four">
+    <ul>
+        <li><a href='#'>ссылка № 1</a></li>
+        <li><a href='#'>ссылка № 2</a></li>
+        <li><a href='#'>ссылка № 3</a></li>
+        <li><a href='#'>ссылка № 4</a></li>
+        <li><a href='#'>ссылка № 5</a></li>
+    </ul>
+</div>
+
+<div class="five">
+    <ul>
+        <li><a href='#'>ссылка № 1</a></li>
+        <li><a href='#'>ссылка № 2</a></li>
+        <li><a href='#'>ссылка № 3</a></li>
+        <li><a href='#'>ссылка № 4</a></li>
+        <li><a href='#'>ссылка № 5</a></li>
+    </ul>
+</div>
+<div class="six">
+    <ul>
+        <li><a href='#'>ссылка № 1</a></li>
+        <li><a href='#'>ссылка № 2</a></li>
+        <li><a href='#'>ссылка № 3</a></li>
+        <li><a href='#'>ссылка № 4</a></li>
+        <li><a href='#'>ссылка № 5</a></li>
+    </ul>
+</div>
+
+<div class="six">
+    <ul>
+        <li><a href='#'>ссылка № 1</a></li>
+        <li><a href='#'>ссылка № 2</a></li>
+        <li><a href='#'>ссылка № 3</a></li>
+        <li><a href='#'>ссылка № 4</a></li>
+        <li><a href='#'>ссылка № 5</a></li>
+    </ul>
+</div>
+
+<div class="seven">
+    <ul>
+        <li><a href='#'>ссылка № 1</a></li>
+        <li><a href='#'>ссылка № 2</a></li>
+        <li><a href='#'>ссылка № 3</a></li>
+        <li><a href='#'>ссылка № 4</a></li>
+        <li><a href='#'>ссылка № 5</a></li>
+    </ul>
 </div>
 <body>
-    
+
 </body>
+
 </html>
