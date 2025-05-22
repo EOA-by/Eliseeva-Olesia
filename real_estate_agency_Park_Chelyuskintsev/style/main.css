@@ -53,7 +53,7 @@ table
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/inter-v18-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/inter-v18-cyrillic/inter-v18-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* inter-500 - cyrillic */
 @font-face {
@@ -61,7 +61,7 @@ table
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/inter-v18-cyrillic-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/inter-v18-cyrillic/inter-v18-cyrillic-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* montserrat-300 - cyrillic */
 @font-face {
@@ -69,7 +69,7 @@ table
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
-  src: url('../fonts/montserrat-v29-cyrillic-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/montserrat-v29-cyrillic/montserrat-v29-cyrillic-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* montserrat-regular - cyrillic */
 @font-face {
@@ -77,7 +77,7 @@ table
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/montserrat-v29-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/montserrat-v29-cyrillic/montserrat-v29-cyrillic-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* montserrat-500italic - cyrillic */
 @font-face {
@@ -85,7 +85,7 @@ table
   font-family: 'Montserrat';
   font-style: italic;
   font-weight: 500;
-  src: url('../fonts/montserrat-v29-cyrillic-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/montserrat-v29-cyrillic/montserrat-v29-cyrillic-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* montserrat-600 - cyrillic */
 @font-face {
@@ -93,7 +93,7 @@ table
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
-  src: url('../fonts/montserrat-v29-cyrillic-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/montserrat-v29-cyrillic/montserrat-v29-cyrillic-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* montserrat-700 - cyrillic */
 @font-face {
@@ -101,7 +101,7 @@ table
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/montserrat-v29-cyrillic-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/montserrat-v29-cyrillic/montserrat-v29-cyrillic-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* cuprum-regular - cyrillic */
 @font-face {
@@ -109,7 +109,7 @@ table
   font-family: 'Cuprum';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/cuprum-v25-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/cuprum-v25-cyrillic/cuprum-v25-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* cuprum-700 - cyrillic */
 @font-face {
@@ -117,7 +117,7 @@ table
   font-family: 'Cuprum';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/cuprum-v25-cyrillic-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/cuprum-v25-cyrillic/cuprum-v25-cyrillic-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 html {
@@ -127,61 +127,6 @@ html {
 *,*::before, *::after{
     box-sizing: inherit;
 }
-<<<<<<< HEAD
-    body {
-        margin: 0;
-        font-family: 'Montserrat', serif;
-    }
-
-    .container {
-        max-width: 1370px;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .header {
-        min-height: 1024px;
-        background: url(/real_estate_agency_Park_Chelyuskintsev/img/header/background.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow: hidden;
-        }
-
-    .header h1 {
-        font-size: 72px;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-family: "Montserrat";
-        color: #FFFFFF;
-    }
-    .header p {
-        font-size: 28px;
-        max-width: 655px;
-        font-weight: normal;
-        font-style: normal;
-        color: #FFFFFF;
-        margin-top: 0;
-
-    }
-    
-    .header button {
-        width: 260px;
-        height: 60px;
-        border-radius: 20px;
-        padding: 18px 19px;
-        font-family: 'Montserrat', serif;
-        font-size: 18px;
-        max-width: 260px;
-        font-weight: medium;
-        border: none;
-        cursor: pointer;
-
-        
-        color: #242424;
-        margin-top: 0;
-    }
-=======
 
 body {
   font-family: 'montserrat';
@@ -215,7 +160,7 @@ body {
 }
 
 .header_logo {
-  padding-bottom: 15px ;
+  padding-bottom: 25px ;
 }
 
 .header_list{
@@ -226,21 +171,22 @@ body {
   margin-right: 30px;
 }
 
-.header_item:last-child{
+.header_item:last-child {
   margin-right: 0;
 }
 
-/* .header_link{
+.header_link {
+  font-family: 'Cuprum';
   font-size:16px;
-  line-height: 123px;
+  line-height:50px;
   color: #ffffff;
   text-decoration:none
- } */
-  /* .header_link:hover,
+ } 
+.header_link:hover,
   .header_link:focus,
-  .header_link:active{
-    opacity: .75%;
-  } */
+  .header_link:active {
+    opacity: 0.5;
+  } 
 /* header style end*/
 
 
@@ -257,4 +203,3 @@ body {
 
 
 /* intro styles end */
->>>>>>> c4bb74a7f96414f9268b08c0e0ba88328b6cbb7f
