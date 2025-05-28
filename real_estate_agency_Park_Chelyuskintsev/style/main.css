@@ -1,205 +1,55 @@
-/* Reset CSS by Eric Meyer http://meyerweb.com/eric/tools/css/reset/ */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-  a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
-  small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd,
-  ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
-  article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,
-  menu, nav, output, ruby, section, summary, time, mark, audio, video
-{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
-{
-  display: block;
-}
-
-body
-{
-  line-height: 1;
-}
-
-ol, ul
-{
-  list-style: none;
-}
-
-blockquote, q
-{
-  quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q:after
-{
-  content: '';
-  content: none;
-}
-
-table
-{
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* inter-regular - cyrillic */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/inter-v18-cyrillic/inter-v18-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* inter-500 - cyrillic */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/inter-v18-cyrillic/inter-v18-cyrillic-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* montserrat-300 - cyrillic */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/montserrat-v29-cyrillic/montserrat-v29-cyrillic-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* montserrat-regular - cyrillic */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/montserrat-v29-cyrillic/montserrat-v29-cyrillic-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* montserrat-500italic - cyrillic */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Montserrat';
-  font-style: italic;
-  font-weight: 500;
-  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/montserrat-v29-cyrillic/montserrat-v29-cyrillic-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* montserrat-600 - cyrillic */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/montserrat-v29-cyrillic/montserrat-v29-cyrillic-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* montserrat-700 - cyrillic */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/montserrat-v29-cyrillic/montserrat-v29-cyrillic-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* cuprum-regular - cyrillic */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Cuprum';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/cuprum-v25-cyrillic/cuprum-v25-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* cuprum-700 - cyrillic */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Cuprum';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/real_estate_agency_Park_Chelyuskintsev/fonts/cuprum-v25-cyrillic/cuprum-v25-cyrillic-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-html {
-    box-sizing: border-box;
-
-  }
-*,*::before, *::after{
-    box-sizing: inherit;
-}
-
-body {
-  font-family: 'montserrat';
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.2;
-  font-weight: normal;
-  color: antiquewhite;
-}
-
-.wrapper {
-   max-width: 1450px;
-   margin: 0 auto; 
-}
-
-/* header style start */
-
-.header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-.header_wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-between;
-  padding-top: 25px;
-}
-
-.header_logo {
-  padding-bottom: 25px ;
-}
-
-.header_list{
-  display: flex;
-  flex-wrap: wrap;
-}
-.header_item{
-  margin-right: 30px;
-}
-
-.header_item:last-child {
-  margin-right: 0;
-}
-
-.header_link {
-  font-family: 'Cuprum';
-  font-size:16px;
-  line-height:50px;
-  color: #ffffff;
-  text-decoration:none
- } 
-.header_link:hover,
-  .header_link:focus,
-  .header_link:active {
-    opacity: 0.5;
-  } 
-/* header style end*/
-
-
-/* intro styles start */
-.intro{
-  height: 100vh;
-  background: url(../img/header/background.png) no-repeat center;
-  background-size: cover;
-}
-
-
-
-
-
-
-/* intro styles end */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: #ecf0f1;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .btn {
+            background: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .properties {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+        .property-card {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
