@@ -112,3 +112,78 @@ table
   src: url('../fonts/advent-pro-v28-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
+                 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+  font-family: Advent Pro, italic ;
+  background-color: whitesmoke;
+}
+
+.header {
+  display: inline;
+  background-color: wheat;
+  max-width: 1440px;
+  height: 72px;
+}
+.header_logo {
+  margin-left: 150px;
+  padding-top: 20px;
+}
+.nav {
+  background-color: aqua;
+}
+
+.nav li {
+  float: left;
+  list-style: none;
+}
+
+.nav a {
+  display: block;
+  color: aliceblue;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+.nav::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.button_white, .button_black {
+  float: right;
+}
+
+.button_black {
+ border: solid 1px black;
+ background-color: black;
+ color: aliceblue;
+ width: 50px;
+ height: 25px;
+ border-radius: 5px ;
+ text-align: center;
+ padding-top: 4px;
+}
+
+.button_white {
+ border: solid 1px black;
+ color: black;
+ width: 50px;
+ height: 25px;
+ border-radius: 5px ;
+ text-align: center;
+ padding-top: 4px;
+ margin-right: 15px;
+}
