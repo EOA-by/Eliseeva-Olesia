@@ -1,0 +1,47 @@
+
+.wrapper {  
+    border: solid 3px black; 
+    background-color: red;
+    background-position: 20%;
+}
+
+.bg_rignt {
+    background-color: darkorchid;
+    background: url(img/ball3.png) top right no-repeat;
+}
+.float_left {
+    background:
+    url(img/ball3.png) left top no-repeat,
+    url(img/ball3.png) left bottom no-repeat,
+    url(img/ball3.png) right bottom no-repeat,
+    url(img/ball3.png) right top no-repeat;
+    background-color: rgb(7, 90, 27);
+    width: 20%;
+    height: auto;
+    float: left; 
+}
+
+.float_rignt {
+    background: 
+    url(img/ball3.png) right top no-repeat,
+    url(img/ball3.png) left bottom no-repeat,
+    url(img/ball3.png) right bottom no-repeat,
+    url(img/ball3.png) left top no-repeat;
+    background-color: rgb(182, 86, 230);
+    width: 200px;
+    float: right;
+}
+
+.content {
+    background: 
+    url(img/ball3.png) right top no-repeat,
+    url(img/ball3.png) left bottom no-repeat,
+    url(img/ball3.png) right bottom no-repeat,
+    url(img/ball3.png) left top no-repeat;  
+    margin-left: 20%;
+    margin-right: 210px;
+}
+
+.both {
+    clear: both;
+}

@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <style>
+        .fixed-block {
+            position: fixed;       /* Фиксированное положение */
+            top: 20px;            /* Отступ сверху */
+            right: 20px;         /* Отступ справа */
+            padding: 10px 15px;   /* Внутренние отступы */
+            background: #ffffff;  /* Фон */
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;   /* Скруглённые углы */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            z-index: 1000;        /* Поверх других элементов */
+            cursor: pointer;      /* Курсор-указатель */
+            transition: all 0.3s ease; /* Плавные эффекты */
+        }
+        .fixed-block:hover {
+            background: #f5f5f5;  /* Изменение фона при наведении */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+    </style>
 </head>
+
 <body>
- h1 ~ p { color: red; }
-<h1>Заголовок</h1>
-<p>Абзац 1</p>
- <div><p>Абзац 2</p></div>
-<p>Абзац 3</p>
-</body>
+<div class="fixed-block">
+        🚀 Висячий блочок
+    </div>
+
+
+
+
+
+    </body>
+
 </html>
