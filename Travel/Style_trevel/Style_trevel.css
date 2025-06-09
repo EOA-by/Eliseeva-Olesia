@@ -154,6 +154,8 @@ li {
   vertical-align: baseline;
 }
 
+/* начало шапки */
+
 body {
   font-family: Circular Std;
   font-weight: 450;
@@ -164,20 +166,19 @@ body {
 }
 
 
-.header {
+section {
   margin-top: 25px;
   align-items: baseline;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .logo {
   float: left;
-  margin-left: 15%;
 }
 
 .banner {
   float: right;
-  margin-right: 15%;
-
 }
 
 .button_white {
@@ -237,3 +238,148 @@ body {
 a:hover {
   color: #35AFF4;
 }
+
+/* Конец шапки */
+
+/* Начало центра */
+
+.main {
+  padding: 60px 120px 60px 120px;
+  gap: 80px;
+  border: solid 1px red;
+  background-color: #FFFFFF;
+  height: 760px;
+}
+
+.block_left {
+  width: 560px;
+  height: 640px;
+  border: solid 1px red;
+}
+
+.tb {
+  font-family: Circular Std;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-top: 100px;
+  background-image: url(/Travel/main/underline.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.tc {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  padding-top: 40px;
+  color: #909090;
+}
+
+.block_left_bottom {
+  display: inline-block;
+  width: 560px;
+  height: 72px;
+  border: solid 1px #909090;
+  border-radius: 16px;
+  padding: 12px 16px 12px 16px;
+  gap: 16px;
+  margin-top: 50px;
+}
+
+.loc {
+  width: 216px;
+  height: 46px;
+  gap: 12px;
+  border: solid 1px red;
+  background-image: url(/Travel/main/main_middle/map.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.tl {
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-left: 30px;
+  padding-top: 4px;
+}
+
+.tll {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #909090;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.date {
+  width: 216px;
+  height: 46px;
+  gap: 12px;
+  border: solid 1px red;
+  background-image: url(/Travel/main/main_middle/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.block_right {
+  width: 560px;
+  height: 640px;
+  border: solid 1px red;
+  background-image:url(/Travel/main/Subtract.png);
+}
+
+.product {
+position: relative;
+top: 60px;
+}
+
+.group {
+  position: relative;
+  top: 470px;
+}
+
+.partner {
+  padding: 60px 120px 60px 120px;
+  gap: 64px;
+  border: solid 1px red;
+  background-color: #FFFFFF;
+  height: 160px;
+  }
+
+  .con {
+    margin-left: 260px;
+
+  }
+
+  .voite {
+  padding: 60px 120px 60px 120px;
+  gap: 32px;
+  border: solid 1px red;
+  background-color: #FFFFFF;
+  height: 619px;
+  }
+
+  .pd {
+    width: 1200px;
+    height: 89px;
+    border: solid 1px red;
+  }
+
+  .pdt {
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  }
+
