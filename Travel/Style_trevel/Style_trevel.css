@@ -241,7 +241,6 @@ a:hover {
 .main {
   padding: 60px 120px 60px 120px;
   gap: 80px;
-  border: solid 1px red;
   background-color: #FFFFFF;
   height: 760px;
   clear: both;
@@ -251,7 +250,6 @@ a:hover {
   float: left;
   width: 560px;
   height: 640px;
-  border: solid 1px red;
 }
 
 .tb {
@@ -292,7 +290,6 @@ a:hover {
   width: 216px;
   height: 46px;
   gap: 12px;
-  border: solid 1px red;
   background-image: url(/Travel/main/main_middle/map.svg);
   background-repeat: no-repeat;
   background-position: left top;
@@ -329,7 +326,6 @@ a:hover {
   width: 216px;
   height: 46px;
   gap: 12px;
-  border: solid 1px red;
   background-image: url(/Travel/main/main_middle/calendar.svg);
   background-repeat: no-repeat;
   background-position: left top;
@@ -339,7 +335,6 @@ a:hover {
   float: right;
   width: 560px;
   height: 640px;
-  border: solid 1px red;
   background-image: url(/Travel/main/Subtract.png);
 }
 
@@ -356,7 +351,6 @@ a:hover {
 .partner {
   padding: 60px 120px 60px 120px;
   gap: 64px;
-  border: solid 1px red;
   background-color: #FFFFFF;
   height: 160px;
   clear: both;
@@ -376,7 +370,6 @@ a:hover {
 .voite {
   padding: 60px 120px 60px 120px;
   gap: 32px;
-  border: solid 1px red;
   background-color: #FFFFFF;
   height: 619px;
 }
@@ -385,8 +378,6 @@ a:hover {
   float: left;
   width: 1280px;
   height: 89px;
-  border: solid 1px red;
-
 }
 
 .pdt {
@@ -411,7 +402,6 @@ a:hover {
   float: right;
   width: 111px;
   height: 48px;
-  border: solid 1px red;
   margin-top: 18px;
 }
 
@@ -453,7 +443,6 @@ a:hover {
 .cards {
   width: 100%;
   height: 378px;
-  border: solid 1px red;
   overflow: hidden;
 }
 
@@ -495,14 +484,13 @@ b {
 .reviews {
   position: relative;
   height: 900px;
-  border: solid 1px red ;
   gap: 32px;
   overflow: hidden;
+  margin-top: -50px;
 }
 .text_rev_1 {  
   width: 314.67px;
   height: 120px;
-  border: solid 1px red;
   font-family: Circular Std;
   font-weight: 450;
   font-size: 16px;
@@ -515,7 +503,6 @@ b {
   float: left;
   margin-top: 27px;
   margin-left: 15px;
-  border: solid 1px red;
   width: 150px;
   height: 48px;
   color: #909090;
@@ -552,7 +539,6 @@ b {
   float: left;
   width: 379px;
   height: 1033px;
-  border: solid 1px red;
   overflow: hidden;
   margin-left: 90px;
 }
@@ -599,7 +585,6 @@ b {
   float: left;
   width: 379px;
   height: 1169px;
-  border: solid 1px red;
   margin-left: 100px;
   
 }
@@ -644,7 +629,6 @@ b {
 .roll_3 {
   float: left;
   width: 379px;
-  border: solid 1px red;
   margin-left: 100px;
 }
 
@@ -683,14 +667,17 @@ b {
   gap: 20px;
   background: #FFFFFF;
 }
+/* конец центра */
+
+/* начало футера */
 
 .send_mail {
   height: 224px;
-  border: solid 1px red;
   background: #35AFF4;
   margin-top: -3px;
   position: relative;
   z-index: 1;
+  margin-top: -45px;
 } 
 
 .vector {
@@ -700,7 +687,6 @@ b {
 .mail {
    width: 1200px;
    height: 144px;
-   border: solid 1px red;
    margin-left: 160px;
    margin-top: 40px;
 }
@@ -712,7 +698,6 @@ b {
   margin-left: 20px;
   margin-top: 45px;
   gap: 4px;
-  border: solid 1px red;
 }
 
 .join {
@@ -734,11 +719,49 @@ b {
   color: #FFFFFF;
 }
 
+.send {
+  position: relative;
+  display: inline-block;
+  width: 460px;
+  height: 48px;
+  gap: 2px;
+  margin-top: 45px;
+}
+
+input::placeholder {
+  padding-left: 30px;
+}
+
+.input_with_icon {
+  width: 328px;
+  height: 48px;  
+  border: solid 1px #FFFFFF;
+  border-radius: 8px;
+  padding-left: 5px;
+  background-image: url(/Travel/main/send_mail/sms.svg);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+}
+
+.input_buttom {
+  width: 120px;
+  height: 48px;
+  border: solid 1px #181818;
+  border-radius: 8px;
+  gap: 8px;
+  background-color: #181818;
+  font-family: Circular Std;
+  font-weight:450;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
 .footer {
   height: 408px;
   padding: 80px 120px 80px 120px;
   gap: 100px;
-  border: solid 1px red;
   background: #181818;
   margin-top: 0px;
   }
@@ -754,14 +777,12 @@ b {
     height: 120px;
     gap: 24;
     margin-left: 70px;
-    border: solid 1px red;
   }
 
 .text_footer {
   width: 300px;
   height: 72px;
   gap: 10px;
-  border: solid 1px red;
   color: #FFFFFF;
   margin-top: 49px;
   font-family: Circular Std;
@@ -777,5 +798,164 @@ b {
   width: 536px;
   height: 243px;
   gap: 40px;
-  border: solid 1px red;
+}
+
+.wrapper_4 {
+  float:left;
+  width: 248px;
+  height: 243px;
+  gap: 40px;
+}
+
+.nav_w_1 {
+  float: left;
+  text-decoration: none;
+  width: 248px;
+  height: 27px;
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.nav_w_2 {
+  float: left;
+  text-decoration: none;
+  width: 248px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.nav_w_3 {
+  float: left;
+  text-decoration: none;
+  width: 248px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.nav_w_4 {
+  float: left;
+  text-decoration: none;
+  width: 248px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.nav_w_5 {
+  float: left;
+  text-decoration: none;
+  width: 248px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.nav_w_6 {
+  float: left;
+  text-decoration: none;
+  width: 248px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.wrapper_5 {
+  float: right;
+  width: 248px;
+  height: 163px;
+  gap: 16px;
+}
+
+.nav_w_7 {
+  float: left;
+  text-decoration: none;
+  width: 248px;
+  height: 27px;
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.nav_w_8 {
+  float: left;
+  text-decoration: none;
+  width: 248px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.nav_w_9 {
+  float: left;
+  text-decoration: none;
+  width: 248px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.nav_w_10 {
+  float: left;
+  text-decoration: none;
+  width: 248px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
 }
