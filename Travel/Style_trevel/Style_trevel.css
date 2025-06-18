@@ -259,7 +259,7 @@ a:hover {
   line-height: 100%;
   letter-spacing: 0%;
   padding-top: 100px;
-  background-image: url("Travel/main/underline.svg");
+  background-image: url("/Travel/main/underline.svg");
   background-repeat: no-repeat;
   background-position: left bottom;
 }
@@ -290,7 +290,7 @@ a:hover {
   width: 216px;
   height: 46px;
   gap: 12px;
-  background-image: url("Travel/main/main_middle/map.svg");
+  background-image: url("/Travel/main/main_middle/map.svg");
   background-repeat: no-repeat;
   background-position: left top;
 }
@@ -326,7 +326,7 @@ a:hover {
   width: 216px;
   height: 46px;
   gap: 12px;
-  background-image: url("Travel/main/main_middle/calendar.svg");
+  background-image: url("/Travel/main/main_middle/calendar.svg");
   background-repeat: no-repeat;
   background-position: left top;
 }
@@ -335,7 +335,7 @@ a:hover {
   float: right;
   width: 560px;
   height: 640px;
-  background-image: url("Travel/main/Subtract.png");
+  background-image: url("/Travel/main/Subtract.png");
 }
 
 .product {
