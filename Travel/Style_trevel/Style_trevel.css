@@ -290,7 +290,7 @@ a:hover {
   width: 216px;
   height: 46px;
   gap: 12px;
-  background-image: url("/Travel/main/main_middle/map.svg");
+  background-image: url("../main/main_middle/map.svg");
   background-repeat: no-repeat;
   background-position: left top;
 }
@@ -326,7 +326,7 @@ a:hover {
   width: 216px;
   height: 46px;
   gap: 12px;
-  background-image: url("/Travel/main/main_middle/calendar.svg");
+  background-image: url("../main/main_middle/calendar.svg");
   background-repeat: no-repeat;
   background-position: left top;
 }
@@ -335,7 +335,7 @@ a:hover {
   float: right;
   width: 560px;
   height: 640px;
-  background-image: url("/Travel/main/Subtract.png");
+  background-image: url("../main/Subtract.png");
 }
 
 .product {
@@ -738,7 +738,7 @@ input::placeholder {
   border: solid 1px #FFFFFF;
   border-radius: 8px;
   padding-left: 5px;
-  background-image: url("/Travel/main/send_mail/sms.svg");
+  background-image: url("../main/send_mail/sms.svg");
   background-repeat: no-repeat;
   background-position: 5px center;
 }
